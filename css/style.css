@@ -1,0 +1,49 @@
+/* #region VARIABLES */
+:root {
+  --sc-bkg-header: #2c3e50;
+  --sc-bkg-jumbo: #1abc9c;
+  --sc-bkg-footer-top: #3a546d;
+}
+/* #endregion VARIABLES */
+
+header {
+  background-color: var(--sc-bkg-header);
+  color: white;
+}
+
+main section:nth-of-type(1) {
+  background-color: var(--sc-bkg-jumbo);
+  color: white;
+}
+
+main section:nth-of-type(1) .col-3 {
+  height: 200px;
+  background-color: blue;
+}
+
+main section:nth-of-type(2) .row .col > div {
+  height: 150px;
+  background-color: aqua;
+}
+
+main section:nth-of-type(3) {
+  background-color: var(--sc-bkg-jumbo);
+  color: white;
+}
+
+main section:nth-of-type(4) {
+  color: var(--sc-bkg-header);
+}
+
+
+footer .footer-top {
+  background-color: var(--sc-bkg-footer-top);
+  color: white;
+}
+
+footer .footer-bottom {
+  background-color: var(--sc-bkg-header);
+  height: 100px;
+  color: white;
+  line-height: 100px;
+}
