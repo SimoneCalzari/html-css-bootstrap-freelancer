@@ -1,0 +1,50 @@
+/* MY COMPONENTS */
+
+/* #region LINES AROUND AN ICON */
+.sc-lines-icon::after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 75px; 
+  border: 2px solid white;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.sc-lines-icon::before {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 75px; 
+  border: 2px solid white;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 992px) {
+  .sc-lines-icon::after {
+    width: 150px; 
+    margin-left: 20px;
+  }
+  
+  .sc-lines-icon::before {
+    width: 150px; 
+    margin-right: 20px;
+  }
+  
+}
+
+@media screen and (min-width: 1400px) {
+  .sc-lines-icon::after {
+    width: 175px; 
+    margin-left: 25px;
+  }
+  
+  .sc-lines-icon::before {
+    width: 175px; 
+    margin-right: 25px;
+  }
+  
+}
+
+/* #endregion LINES AROUND AN ICON */

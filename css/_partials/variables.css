@@ -1,7 +1,7 @@
 /* #region VARIABLES */
 :root {
-  --sc-bkg-header: #2c3e50;
-  --sc-bkg-jumbo: #1abc9c;
-  --sc-bkg-footer-top: #3a546d;
+  --sc-primary-color: #2c3e50;
+  --sc-primary-color-2: #3a546d;
+  --sc-secondary-color: #1abc9c;
 }
 /* #endregion VARIABLES */
