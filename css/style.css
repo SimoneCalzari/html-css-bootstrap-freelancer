@@ -1,14 +1,12 @@
-/* #region VARIABLES */
-:root {
-  --sc-bkg-header: #2c3e50;
-  --sc-bkg-jumbo: #1abc9c;
-  --sc-bkg-footer-top: #3a546d;
-}
-/* #endregion VARIABLES */
+/* #region IMPORT */
+@import url(_partials/variables.css);
+@import url(_partials/commons.css);
+@import url(components/components.css);
+/* #endregion IMPORT */
+
 
 header {
   background-color: var(--sc-bkg-header);
-  color: white;
 }
 
 main section:nth-of-type(1) {
