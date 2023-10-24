@@ -4,7 +4,6 @@
 @import url(components/components.css);
 /* #endregion IMPORT */
 
-
 header {
   background-color: var(--sc-primary-color);
 }
@@ -73,19 +72,14 @@ main #contact-me .sc-btn-send:hover {
   background-color: white;
 }
 
-
-
-
-
-
 footer .footer-top {
   background-color: var(--sc-primary-color-2);
-  color: white;
+}
+
+footer .footer-top span {
+  color: var(--sc-secondary-color);
 }
 
 footer .footer-bottom {
   background-color: var(--sc-primary-color);
-  height: 100px;
-  color: white;
-  line-height: 100px;
 }
