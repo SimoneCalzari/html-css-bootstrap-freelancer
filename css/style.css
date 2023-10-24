@@ -41,18 +41,50 @@ main #about .sc-btn-down button:hover {
   background-color: white;
 }
 
-main section:nth-of-type(4) {
-  color: var(--sc-bkg-header);
+main #contact-me {
+  color: var(--sc-primary-color);
+}
+
+main #contact-me .sc-lines-icon::before {
+  border-color: var(--sc-primary-color);
+}
+
+main #contact-me .sc-lines-icon::after {
+  border-color: var(--sc-primary-color);
+}
+
+main #contact-me .form-group {
+  border-bottom: var(--bs-border-width) solid var(--bs-border-color);
+  color: var(--sc-primary-color);
+  font-size: 20px;
+}
+
+main #contact-me .sc-btn-send  {
+  color: white;
+  font-size: 20px;
+  background-color: var(--sc-secondary-color);
+  border: none;
+  padding: 10px 25px;
+}
+
+main #contact-me .sc-btn-send:hover {
+  color: var(--sc-secondary-color);
+  border: 1px solid var(--sc-secondary-color);
+  background-color: white;
 }
 
 
+
+
+
+
 footer .footer-top {
-  background-color: var(--sc-bkg-footer-top);
+  background-color: var(--sc-primary-color-2);
   color: white;
 }
 
 footer .footer-bottom {
-  background-color: var(--sc-bkg-header);
+  background-color: var(--sc-primary-color);
   height: 100px;
   color: white;
   line-height: 100px;
